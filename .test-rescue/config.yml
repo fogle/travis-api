@@ -1,0 +1,8 @@
+before_test:
+  - rails db:create
+  - rails db:test:prepare
+  - rails assets:precompile
+dependencies:
+  yarn: latest
+  postgresql: latest
+  ruby: 2.6.5
