@@ -6,3 +6,4 @@ dependencies:
   yarn: latest
   postgresql: latest
   ruby: 2.6.5
+
